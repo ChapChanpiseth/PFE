@@ -1,0 +1,1452 @@
+{
+	"version": 0,
+	"axis": "DTH",
+	"comparisonOperator": "lte",
+	"rightOperand": 187500,
+	"trueBranch": {
+		"axis": "RTT",
+		"comparisonOperator": "lte",
+		"rightOperand": 234500000,
+		"trueBranch": {
+			"axis": "UL",
+			"comparisonOperator": "lte",
+			"rightOperand": 0.275,
+			"trueBranch": {
+				"axis": "DJ",
+				"comparisonOperator": "lte",
+				"rightOperand": 500000,
+				"trueBranch": {
+					"axis": "RTT",
+					"comparisonOperator": "lte",
+					"rightOperand": 5500000,
+					"trueBranch": {
+						"axis": "DL",
+						"comparisonOperator": "lte",
+						"rightOperand": 0.005,
+						"trueBranch": {
+							"axis": "UJ",
+							"comparisonOperator": "lte",
+							"rightOperand": 59000000,
+							"trueBranch": {
+								"qoeClass": 1
+							},
+							"falseBranch": {
+								"qoeClass": 2
+							}
+						},
+						"falseBranch": {
+							"qoeClass": 2
+						}
+					},
+					"falseBranch": {
+						"axis": "RTT",
+						"comparisonOperator": "lte",
+						"rightOperand": 46500000,
+						"trueBranch": {
+							"axis": "RTT",
+							"comparisonOperator": "lte",
+							"rightOperand": 41500000,
+							"trueBranch": {
+								"axis": "UTH",
+								"comparisonOperator": "lte",
+								"rightOperand": 6000000,
+								"trueBranch": {
+									"qoeClass": 1
+								},
+								"falseBranch": {
+									"qoeClass": 1
+								}
+							},
+							"falseBranch": {
+								"qoeClass": 1
+							}
+						},
+						"falseBranch": {
+							"axis": "RTT",
+							"comparisonOperator": "lte",
+							"rightOperand": 81000000,
+							"trueBranch": {
+								"axis": "UTH",
+								"comparisonOperator": "lte",
+								"rightOperand": 187500,
+								"trueBranch": {
+									"qoeClass": 1
+								},
+								"falseBranch": {
+									"qoeClass": 2
+								}
+							},
+							"falseBranch": {
+								"axis": "DL",
+								"comparisonOperator": "lte",
+								"rightOperand": 0.04,
+								"trueBranch": {
+									"qoeClass": 1
+								},
+								"falseBranch": {
+									"qoeClass": 1
+								}
+							}
+						}
+					}
+				},
+				"falseBranch": {
+					"axis": "UJ",
+					"comparisonOperator": "lte",
+					"rightOperand": 77000000,
+					"trueBranch": {
+						"axis": "DL",
+						"comparisonOperator": "lte",
+						"rightOperand": 0.015,
+						"trueBranch": {
+							"axis": "UL",
+							"comparisonOperator": "lte",
+							"rightOperand": 0.105,
+							"trueBranch": {
+								"axis": "DJ",
+								"comparisonOperator": "lte",
+								"rightOperand": 29000000,
+								"trueBranch": {
+									"qoeClass": 1
+								},
+								"falseBranch": {
+									"qoeClass": 1
+								}
+							},
+							"falseBranch": {
+								"axis": "RTT",
+								"comparisonOperator": "lte",
+								"rightOperand": 55500000,
+								"trueBranch": {
+									"qoeClass": 1
+								},
+								"falseBranch": {
+									"qoeClass": 1
+								}
+							}
+						},
+						"falseBranch": {
+							"axis": "RTT",
+							"comparisonOperator": "lte",
+							"rightOperand": 217500000,
+							"trueBranch": {
+								"axis": "RTT",
+								"comparisonOperator": "lte",
+								"rightOperand": 98500000,
+								"trueBranch": {
+									"qoeClass": 1
+								},
+								"falseBranch": {
+									"qoeClass": 1
+								}
+							},
+							"falseBranch": {
+								"qoeClass": 2
+							}
+						}
+					},
+					"falseBranch": {
+						"axis": "RTT",
+						"comparisonOperator": "lte",
+						"rightOperand": 7500000,
+						"trueBranch": {
+							"axis": "UJ",
+							"comparisonOperator": "lte",
+							"rightOperand": 206000000,
+							"trueBranch": {
+								"axis": "DJ",
+								"comparisonOperator": "lte",
+								"rightOperand": 1500000,
+								"trueBranch": {
+									"qoeClass": 2
+								},
+								"falseBranch": {
+									"qoeClass": 1
+								}
+							},
+							"falseBranch": {
+								"qoeClass": 1
+							}
+						},
+						"falseBranch": {
+							"axis": "RTT",
+							"comparisonOperator": "lte",
+							"rightOperand": 12500000,
+							"trueBranch": {
+								"axis": "DL",
+								"comparisonOperator": "lte",
+								"rightOperand": 0.275,
+								"trueBranch": {
+									"qoeClass": 1
+								},
+								"falseBranch": {
+									"qoeClass": 2
+								}
+							},
+							"falseBranch": {
+								"axis": "RTT",
+								"comparisonOperator": "lte",
+								"rightOperand": 27500000,
+								"trueBranch": {
+									"qoeClass": 1
+								},
+								"falseBranch": {
+									"qoeClass": 1
+								}
+							}
+						}
+					}
+				}
+			},
+			"falseBranch": {
+				"axis": "RTT",
+				"comparisonOperator": "lte",
+				"rightOperand": 217500000,
+				"trueBranch": {
+					"axis": "UJ",
+					"comparisonOperator": "lte",
+					"rightOperand": 29000000,
+					"trueBranch": {
+						"axis": "UTH",
+						"comparisonOperator": "lte",
+						"rightOperand": 12000000,
+						"trueBranch": {
+							"axis": "UJ",
+							"comparisonOperator": "lte",
+							"rightOperand": 4000000,
+							"trueBranch": {
+								"axis": "DJ",
+								"comparisonOperator": "lte",
+								"rightOperand": 500000,
+								"trueBranch": {
+									"qoeClass": 1
+								},
+								"falseBranch": {
+									"qoeClass": 1
+								}
+							},
+							"falseBranch": {
+								"axis": "UTH",
+								"comparisonOperator": "lte",
+								"rightOperand": 1500000,
+								"trueBranch": {
+									"qoeClass": 1
+								},
+								"falseBranch": {
+									"qoeClass": 1
+								}
+							}
+						},
+						"falseBranch": {
+							"axis": "RTT",
+							"comparisonOperator": "lte",
+							"rightOperand": 12000000,
+							"trueBranch": {
+								"qoeClass": 2
+							},
+							"falseBranch": {
+								"axis": "RTT",
+								"comparisonOperator": "lte",
+								"rightOperand": 38500000,
+								"trueBranch": {
+									"qoeClass": 1
+								},
+								"falseBranch": {
+									"qoeClass": 1
+								}
+							}
+						}
+					},
+					"falseBranch": {
+						"axis": "RTT",
+						"comparisonOperator": "lte",
+						"rightOperand": 5500000,
+						"trueBranch": {
+							"axis": "DL",
+							"comparisonOperator": "lte",
+							"rightOperand": 0.04,
+							"trueBranch": {
+								"qoeClass": 1
+							},
+							"falseBranch": {
+								"qoeClass": 2
+							}
+						},
+						"falseBranch": {
+							"qoeClass": 1
+						}
+					}
+				},
+				"falseBranch": {
+					"axis": "DL",
+					"comparisonOperator": "lte",
+					"rightOperand": 0.005,
+					"trueBranch": {
+						"axis": "UTH",
+						"comparisonOperator": "lte",
+						"rightOperand": 1125000,
+						"trueBranch": {
+							"qoeClass": 2
+						},
+						"falseBranch": {
+							"axis": "UTH",
+							"comparisonOperator": "lte",
+							"rightOperand": 9000000,
+							"trueBranch": {
+								"qoeClass": 1
+							},
+							"falseBranch": {
+								"qoeClass": 2
+							}
+						}
+					},
+					"falseBranch": {
+						"qoeClass": 1
+					}
+				}
+			}
+		},
+		"falseBranch": {
+			"axis": "DL",
+			"comparisonOperator": "lte",
+			"rightOperand": 0.105,
+			"trueBranch": {
+				"axis": "UL",
+				"comparisonOperator": "lte",
+				"rightOperand": 0.275,
+				"trueBranch": {
+					"axis": "DJ",
+					"comparisonOperator": "lte",
+					"rightOperand": 29000000,
+					"trueBranch": {
+						"axis": "RTT",
+						"comparisonOperator": "lte",
+						"rightOperand": 769000000,
+						"trueBranch": {
+							"axis": "RTT",
+							"comparisonOperator": "lte",
+							"rightOperand": 286500000,
+							"trueBranch": {
+								"axis": "DJ",
+								"comparisonOperator": "lte",
+								"rightOperand": 500000,
+								"trueBranch": {
+									"qoeClass": 1
+								},
+								"falseBranch": {
+									"qoeClass": 1
+								}
+							},
+							"falseBranch": {
+								"axis": "RTT",
+								"comparisonOperator": "lte",
+								"rightOperand": 751500000,
+								"trueBranch": {
+									"qoeClass": 1
+								},
+								"falseBranch": {
+									"qoeClass": 1
+								}
+							}
+						},
+						"falseBranch": {
+							"axis": "UL",
+							"comparisonOperator": "lte",
+							"rightOperand": 0.105,
+							"trueBranch": {
+								"axis": "UTH",
+								"comparisonOperator": "lte",
+								"rightOperand": 6000000,
+								"trueBranch": {
+									"qoeClass": 1
+								},
+								"falseBranch": {
+									"qoeClass": 1
+								}
+							},
+							"falseBranch": {
+								"axis": "UJ",
+								"comparisonOperator": "lte",
+								"rightOperand": 500000,
+								"trueBranch": {
+									"qoeClass": 2
+								},
+								"falseBranch": {
+									"qoeClass": 1
+								}
+							}
+						}
+					},
+					"falseBranch": {
+						"axis": "RTT",
+						"comparisonOperator": "lte",
+						"rightOperand": 281500000,
+						"trueBranch": {
+							"axis": "UJ",
+							"comparisonOperator": "lte",
+							"rightOperand": 500000,
+							"trueBranch": {
+								"qoeClass": 2
+							},
+							"falseBranch": {
+								"axis": "UJ",
+								"comparisonOperator": "lte",
+								"rightOperand": 206000000,
+								"trueBranch": {
+									"qoeClass": 1
+								},
+								"falseBranch": {
+									"qoeClass": 2
+								}
+							}
+						},
+						"falseBranch": {
+							"axis": "RTT",
+							"comparisonOperator": "lte",
+							"rightOperand": 1132500000,
+							"trueBranch": {
+								"axis": "DJ",
+								"comparisonOperator": "lte",
+								"rightOperand": 77000000,
+								"trueBranch": {
+									"qoeClass": 1
+								},
+								"falseBranch": {
+									"qoeClass": 1
+								}
+							},
+							"falseBranch": {
+								"axis": "UJ",
+								"comparisonOperator": "lte",
+								"rightOperand": 206000000,
+								"trueBranch": {
+									"qoeClass": 1
+								},
+								"falseBranch": {
+									"qoeClass": 1
+								}
+							}
+						}
+					}
+				},
+				"falseBranch": {
+					"axis": "RTT",
+					"comparisonOperator": "lte",
+					"rightOperand": 263500000,
+					"trueBranch": {
+						"axis": "UJ",
+						"comparisonOperator": "lte",
+						"rightOperand": 59000000,
+						"trueBranch": {
+							"qoeClass": 1
+						},
+						"falseBranch": {
+							"qoeClass": 2
+						}
+					},
+					"falseBranch": {
+						"qoeClass": 1
+					}
+				}
+			},
+			"falseBranch": {
+				"axis": "UTH",
+				"comparisonOperator": "lte",
+				"rightOperand": 6000000,
+				"trueBranch": {
+					"axis": "UL",
+					"comparisonOperator": "lte",
+					"rightOperand": 0.275,
+					"trueBranch": {
+						"qoeClass": 1
+					},
+					"falseBranch": {
+						"axis": "RTT",
+						"comparisonOperator": "lte",
+						"rightOperand": 751500000,
+						"trueBranch": {
+							"qoeClass": 1
+						},
+						"falseBranch": {
+							"axis": "RTT",
+							"comparisonOperator": "lte",
+							"rightOperand": 765500000,
+							"trueBranch": {
+								"qoeClass": 2
+							},
+							"falseBranch": {
+								"qoeClass": 1
+							}
+						}
+					}
+				},
+				"falseBranch": {
+					"axis": "RTT",
+					"comparisonOperator": "lte",
+					"rightOperand": 310000000,
+					"trueBranch": {
+						"qoeClass": 2
+					},
+					"falseBranch": {
+						"axis": "DJ",
+						"comparisonOperator": "lte",
+						"rightOperand": 500000,
+						"trueBranch": {
+							"axis": "RTT",
+							"comparisonOperator": "lte",
+							"rightOperand": 568500000,
+							"trueBranch": {
+								"qoeClass": 1
+							},
+							"falseBranch": {
+								"qoeClass": 2
+							}
+						},
+						"falseBranch": {
+							"qoeClass": 1
+						}
+					}
+				}
+			}
+		}
+	},
+	"falseBranch": {
+		"axis": "RTT",
+		"comparisonOperator": "lte",
+		"rightOperand": 310000000,
+		"trueBranch": {
+			"axis": "DTH",
+			"comparisonOperator": "lte",
+			"rightOperand": 750000,
+			"trueBranch": {
+				"axis": "DTH",
+				"comparisonOperator": "lte",
+				"rightOperand": 375000,
+				"trueBranch": {
+					"axis": "DJ",
+					"comparisonOperator": "lte",
+					"rightOperand": 206000000,
+					"trueBranch": {
+						"axis": "DL",
+						"comparisonOperator": "lte",
+						"rightOperand": 0.275,
+						"trueBranch": {
+							"axis": "UL",
+							"comparisonOperator": "lte",
+							"rightOperand": 0.275,
+							"trueBranch": {
+								"axis": "DJ",
+								"comparisonOperator": "lte",
+								"rightOperand": 77000000,
+								"trueBranch": {
+									"qoeClass": 3
+								},
+								"falseBranch": {
+									"qoeClass": 3
+								}
+							},
+							"falseBranch": {
+								"axis": "UJ",
+								"comparisonOperator": "lte",
+								"rightOperand": 500000,
+								"trueBranch": {
+									"qoeClass": 2
+								},
+								"falseBranch": {
+									"qoeClass": 3
+								}
+							}
+						},
+						"falseBranch": {
+							"axis": "RTT",
+							"comparisonOperator": "lte",
+							"rightOperand": 73500000,
+							"trueBranch": {
+								"axis": "UTH",
+								"comparisonOperator": "lte",
+								"rightOperand": 750000,
+								"trueBranch": {
+									"qoeClass": 4
+								},
+								"falseBranch": {
+									"qoeClass": 3
+								}
+							},
+							"falseBranch": {
+								"axis": "UJ",
+								"comparisonOperator": "lte",
+								"rightOperand": 500000,
+								"trueBranch": {
+									"qoeClass": 2
+								},
+								"falseBranch": {
+									"qoeClass": 1
+								}
+							}
+						}
+					},
+					"falseBranch": {
+						"axis": "RTT",
+						"comparisonOperator": "lte",
+						"rightOperand": 209500000,
+						"trueBranch": {
+							"axis": "DL",
+							"comparisonOperator": "lte",
+							"rightOperand": 0.275,
+							"trueBranch": {
+								"axis": "UJ",
+								"comparisonOperator": "lte",
+								"rightOperand": 4000000,
+								"trueBranch": {
+									"qoeClass": 2
+								},
+								"falseBranch": {
+									"qoeClass": 2
+								}
+							},
+							"falseBranch": {
+								"axis": "RTT",
+								"comparisonOperator": "lte",
+								"rightOperand": 21500000,
+								"trueBranch": {
+									"qoeClass": 2
+								},
+								"falseBranch": {
+									"qoeClass": 1
+								}
+							}
+						},
+						"falseBranch": {
+							"axis": "DL",
+							"comparisonOperator": "lte",
+							"rightOperand": 0.275,
+							"trueBranch": {
+								"axis": "DL",
+								"comparisonOperator": "lte",
+								"rightOperand": 0.105,
+								"trueBranch": {
+									"qoeClass": 1
+								},
+								"falseBranch": {
+									"qoeClass": 2
+								}
+							},
+							"falseBranch": {
+								"qoeClass": 1
+							}
+						}
+					}
+				},
+				"falseBranch": {
+					"axis": "DL",
+					"comparisonOperator": "lte",
+					"rightOperand": 0.275,
+					"trueBranch": {
+						"axis": "DJ",
+						"comparisonOperator": "lte",
+						"rightOperand": 77000000,
+						"trueBranch": {
+							"axis": "UL",
+							"comparisonOperator": "lte",
+							"rightOperand": 0.04,
+							"trueBranch": {
+								"axis": "RTT",
+								"comparisonOperator": "lte",
+								"rightOperand": 7500000,
+								"trueBranch": {
+									"qoeClass": 5
+								},
+								"falseBranch": {
+									"qoeClass": 3
+								}
+							},
+							"falseBranch": {
+								"axis": "RTT",
+								"comparisonOperator": "lte",
+								"rightOperand": 2500000,
+								"trueBranch": {
+									"qoeClass": 4
+								},
+								"falseBranch": {
+									"qoeClass": 3
+								}
+							}
+						},
+						"falseBranch": {
+							"axis": "RTT",
+							"comparisonOperator": "lte",
+							"rightOperand": 195500000,
+							"trueBranch": {
+								"axis": "UTH",
+								"comparisonOperator": "lte",
+								"rightOperand": 187500,
+								"trueBranch": {
+									"qoeClass": 3
+								},
+								"falseBranch": {
+									"qoeClass": 3
+								}
+							},
+							"falseBranch": {
+								"axis": "DJ",
+								"comparisonOperator": "lte",
+								"rightOperand": 206000000,
+								"trueBranch": {
+									"qoeClass": 3
+								},
+								"falseBranch": {
+									"qoeClass": 2
+								}
+							}
+						}
+					},
+					"falseBranch": {
+						"axis": "RTT",
+						"comparisonOperator": "lte",
+						"rightOperand": 73500000,
+						"trueBranch": {
+							"axis": "DJ",
+							"comparisonOperator": "lte",
+							"rightOperand": 500000,
+							"trueBranch": {
+								"axis": "UTH",
+								"comparisonOperator": "lte",
+								"rightOperand": 2500000,
+								"trueBranch": {
+									"qoeClass": 3
+								},
+								"falseBranch": {
+									"qoeClass": 3
+								}
+							},
+							"falseBranch": {
+								"axis": "RTT",
+								"comparisonOperator": "lte",
+								"rightOperand": 59000000,
+								"trueBranch": {
+									"qoeClass": 3
+								},
+								"falseBranch": {
+									"qoeClass": 3
+								}
+							}
+						},
+						"falseBranch": {
+							"axis": "RTT",
+							"comparisonOperator": "lte",
+							"rightOperand": 265000000,
+							"trueBranch": {
+								"axis": "UL",
+								"comparisonOperator": "lte",
+								"rightOperand": 0.04,
+								"trueBranch": {
+									"qoeClass": 2
+								},
+								"falseBranch": {
+									"qoeClass": 1
+								}
+							},
+							"falseBranch": {
+								"axis": "RTT",
+								"comparisonOperator": "lte",
+								"rightOperand": 299000000,
+								"trueBranch": {
+									"qoeClass": 1
+								},
+								"falseBranch": {
+									"qoeClass": 2
+								}
+							}
+						}
+					}
+				}
+			},
+			"falseBranch": {
+				"axis": "DL",
+				"comparisonOperator": "lte",
+				"rightOperand": 0.275,
+				"trueBranch": {
+					"axis": "DJ",
+					"comparisonOperator": "lte",
+					"rightOperand": 77000000,
+					"trueBranch": {
+						"axis": "DTH",
+						"comparisonOperator": "lte",
+						"rightOperand": 3000000,
+						"trueBranch": {
+							"axis": "RTT",
+							"comparisonOperator": "lte",
+							"rightOperand": 73500000,
+							"trueBranch": {
+								"axis": "UL",
+								"comparisonOperator": "lte",
+								"rightOperand": 0.275,
+								"trueBranch": {
+									"qoeClass": 5
+								},
+								"falseBranch": {
+									"qoeClass": 5
+								}
+							},
+							"falseBranch": {
+								"axis": "DJ",
+								"comparisonOperator": "lte",
+								"rightOperand": 4000000,
+								"trueBranch": {
+									"qoeClass": 5
+								},
+								"falseBranch": {
+									"qoeClass": 5
+								}
+							}
+						},
+						"falseBranch": {
+							"axis": "RTT",
+							"comparisonOperator": "lte",
+							"rightOperand": 157500000,
+							"trueBranch": {
+								"axis": "DJ",
+								"comparisonOperator": "lte",
+								"rightOperand": 11000000,
+								"trueBranch": {
+									"qoeClass": 5
+								},
+								"falseBranch": {
+									"qoeClass": 5
+								}
+							},
+							"falseBranch": {
+								"axis": "DJ",
+								"comparisonOperator": "lte",
+								"rightOperand": 29000000,
+								"trueBranch": {
+									"qoeClass": 5
+								},
+								"falseBranch": {
+									"qoeClass": 5
+								}
+							}
+						}
+					},
+					"falseBranch": {
+						"axis": "RTT",
+						"comparisonOperator": "lte",
+						"rightOperand": 59000000,
+						"trueBranch": {
+							"axis": "DTH",
+							"comparisonOperator": "lte",
+							"rightOperand": 3000000,
+							"trueBranch": {
+								"axis": "RTT",
+								"comparisonOperator": "lte",
+								"rightOperand": 30500000,
+								"trueBranch": {
+									"qoeClass": 5
+								},
+								"falseBranch": {
+									"qoeClass": 3
+								}
+							},
+							"falseBranch": {
+								"axis": "DL",
+								"comparisonOperator": "lte",
+								"rightOperand": 0.105,
+								"trueBranch": {
+									"qoeClass": 5
+								},
+								"falseBranch": {
+									"qoeClass": 5
+								}
+							}
+						},
+						"falseBranch": {
+							"axis": "RTT",
+							"comparisonOperator": "lte",
+							"rightOperand": 116000000,
+							"trueBranch": {
+								"axis": "RTT",
+								"comparisonOperator": "lte",
+								"rightOperand": 106500000,
+								"trueBranch": {
+									"qoeClass": 3
+								},
+								"falseBranch": {
+									"qoeClass": 5
+								}
+							},
+							"falseBranch": {
+								"axis": "DL",
+								"comparisonOperator": "lte",
+								"rightOperand": 0.105,
+								"trueBranch": {
+									"qoeClass": 3
+								},
+								"falseBranch": {
+									"qoeClass": 2
+								}
+							}
+						}
+					}
+				},
+				"falseBranch": {
+					"axis": "RTT",
+					"comparisonOperator": "lte",
+					"rightOperand": 73500000,
+					"trueBranch": {
+						"axis": "DJ",
+						"comparisonOperator": "lte",
+						"rightOperand": 29000000,
+						"trueBranch": {
+							"axis": "RTT",
+							"comparisonOperator": "lte",
+							"rightOperand": 21500000,
+							"trueBranch": {
+								"axis": "UL",
+								"comparisonOperator": "lte",
+								"rightOperand": 0.04,
+								"trueBranch": {
+									"qoeClass": 5
+								},
+								"falseBranch": {
+									"qoeClass": 5
+								}
+							},
+							"falseBranch": {
+								"axis": "DTH",
+								"comparisonOperator": "lte",
+								"rightOperand": 12000000,
+								"trueBranch": {
+									"qoeClass": 3
+								},
+								"falseBranch": {
+									"qoeClass": 3
+								}
+							}
+						},
+						"falseBranch": {
+							"axis": "DJ",
+							"comparisonOperator": "lte",
+							"rightOperand": 206000000,
+							"trueBranch": {
+								"axis": "RTT",
+								"comparisonOperator": "lte",
+								"rightOperand": 37000000,
+								"trueBranch": {
+									"qoeClass": 3
+								},
+								"falseBranch": {
+									"qoeClass": 3
+								}
+							},
+							"falseBranch": {
+								"axis": "RTT",
+								"comparisonOperator": "lte",
+								"rightOperand": 32000000,
+								"trueBranch": {
+									"qoeClass": 3
+								},
+								"falseBranch": {
+									"qoeClass": 1
+								}
+							}
+						}
+					},
+					"falseBranch": {
+						"axis": "DJ",
+						"comparisonOperator": "lte",
+						"rightOperand": 77000000,
+						"trueBranch": {
+							"axis": "RTT",
+							"comparisonOperator": "lte",
+							"rightOperand": 125000000,
+							"trueBranch": {
+								"axis": "UTH",
+								"comparisonOperator": "lte",
+								"rightOperand": 750000,
+								"trueBranch": {
+									"qoeClass": 2
+								},
+								"falseBranch": {
+									"qoeClass": 3
+								}
+							},
+							"falseBranch": {
+								"axis": "UL",
+								"comparisonOperator": "lte",
+								"rightOperand": 0.04,
+								"trueBranch": {
+									"qoeClass": 2
+								},
+								"falseBranch": {
+									"qoeClass": 1
+								}
+							}
+						},
+						"falseBranch": {
+							"axis": "RTT",
+							"comparisonOperator": "lte",
+							"rightOperand": 157500000,
+							"trueBranch": {
+								"axis": "UTH",
+								"comparisonOperator": "lte",
+								"rightOperand": 12000000,
+								"trueBranch": {
+									"qoeClass": 1
+								},
+								"falseBranch": {
+									"qoeClass": 2
+								}
+							},
+							"falseBranch": {
+								"axis": "UL",
+								"comparisonOperator": "lte",
+								"rightOperand": 0.015,
+								"trueBranch": {
+									"qoeClass": 1
+								},
+								"falseBranch": {
+									"qoeClass": 1
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"falseBranch": {
+			"axis": "DL",
+			"comparisonOperator": "lte",
+			"rightOperand": 0.275,
+			"trueBranch": {
+				"axis": "DJ",
+				"comparisonOperator": "lte",
+				"rightOperand": 206000000,
+				"trueBranch": {
+					"axis": "RTT",
+					"comparisonOperator": "lte",
+					"rightOperand": 1404000000,
+					"trueBranch": {
+						"axis": "DTH",
+						"comparisonOperator": "lte",
+						"rightOperand": 375000,
+						"trueBranch": {
+							"axis": "UL",
+							"comparisonOperator": "lte",
+							"rightOperand": 0.105,
+							"trueBranch": {
+								"axis": "DJ",
+								"comparisonOperator": "lte",
+								"rightOperand": 77000000,
+								"trueBranch": {
+									"qoeClass": 3
+								},
+								"falseBranch": {
+									"qoeClass": 2
+								}
+							},
+							"falseBranch": {
+								"axis": "UTH",
+								"comparisonOperator": "lte",
+								"rightOperand": 12000000,
+								"trueBranch": {
+									"qoeClass": 1
+								},
+								"falseBranch": {
+									"qoeClass": 2
+								}
+							}
+						},
+						"falseBranch": {
+							"axis": "DJ",
+							"comparisonOperator": "lte",
+							"rightOperand": 77000000,
+							"trueBranch": {
+								"axis": "DL",
+								"comparisonOperator": "lte",
+								"rightOperand": 0.105,
+								"trueBranch": {
+									"qoeClass": 3
+								},
+								"falseBranch": {
+									"qoeClass": 3
+								}
+							},
+							"falseBranch": {
+								"axis": "UJ",
+								"comparisonOperator": "lte",
+								"rightOperand": 29000000,
+								"trueBranch": {
+									"qoeClass": 2
+								},
+								"falseBranch": {
+									"qoeClass": 3
+								}
+							}
+						}
+					},
+					"falseBranch": {
+						"axis": "DL",
+						"comparisonOperator": "lte",
+						"rightOperand": 0.04,
+						"trueBranch": {
+							"axis": "UL",
+							"comparisonOperator": "lte",
+							"rightOperand": 0.275,
+							"trueBranch": {
+								"axis": "DJ",
+								"comparisonOperator": "lte",
+								"rightOperand": 77000000,
+								"trueBranch": {
+									"qoeClass": 3
+								},
+								"falseBranch": {
+									"qoeClass": 1
+								}
+							},
+							"falseBranch": {
+								"axis": "DL",
+								"comparisonOperator": "lte",
+								"rightOperand": 0.015,
+								"trueBranch": {
+									"qoeClass": 1
+								},
+								"falseBranch": {
+									"qoeClass": 1
+								}
+							}
+						},
+						"falseBranch": {
+							"axis": "DL",
+							"comparisonOperator": "lte",
+							"rightOperand": 0.105,
+							"trueBranch": {
+								"axis": "RTT",
+								"comparisonOperator": "lte",
+								"rightOperand": 1690500000,
+								"trueBranch": {
+									"qoeClass": 2
+								},
+								"falseBranch": {
+									"qoeClass": 1
+								}
+							},
+							"falseBranch": {
+								"axis": "RTT",
+								"comparisonOperator": "lte",
+								"rightOperand": 2013000000,
+								"trueBranch": {
+									"qoeClass": 1
+								},
+								"falseBranch": {
+									"qoeClass": 1
+								}
+							}
+						}
+					}
+				},
+				"falseBranch": {
+					"axis": "RTT",
+					"comparisonOperator": "lte",
+					"rightOperand": 1132500000,
+					"trueBranch": {
+						"axis": "RTT",
+						"comparisonOperator": "lte",
+						"rightOperand": 706500000,
+						"trueBranch": {
+							"axis": "RTT",
+							"comparisonOperator": "lte",
+							"rightOperand": 523500000,
+							"trueBranch": {
+								"axis": "DL",
+								"comparisonOperator": "lte",
+								"rightOperand": 0.015,
+								"trueBranch": {
+									"qoeClass": 2
+								},
+								"falseBranch": {
+									"qoeClass": 1
+								}
+							},
+							"falseBranch": {
+								"axis": "UJ",
+								"comparisonOperator": "lte",
+								"rightOperand": 11000000,
+								"trueBranch": {
+									"qoeClass": 1
+								},
+								"falseBranch": {
+									"qoeClass": 1
+								}
+							}
+						},
+						"falseBranch": {
+							"axis": "RTT",
+							"comparisonOperator": "lte",
+							"rightOperand": 832500000,
+							"trueBranch": {
+								"axis": "DTH",
+								"comparisonOperator": "lte",
+								"rightOperand": 375000,
+								"trueBranch": {
+									"qoeClass": 1
+								},
+								"falseBranch": {
+									"qoeClass": 2
+								}
+							},
+							"falseBranch": {
+								"axis": "UJ",
+								"comparisonOperator": "lte",
+								"rightOperand": 4000000,
+								"trueBranch": {
+									"qoeClass": 1
+								},
+								"falseBranch": {
+									"qoeClass": 2
+								}
+							}
+						}
+					},
+					"falseBranch": {
+						"axis": "UL",
+						"comparisonOperator": "lte",
+						"rightOperand": 0.015,
+						"trueBranch": {
+							"axis": "UJ",
+							"comparisonOperator": "lte",
+							"rightOperand": 206000000,
+							"trueBranch": {
+								"axis": "RTT",
+								"comparisonOperator": "lte",
+								"rightOperand": 1508500000,
+								"trueBranch": {
+									"qoeClass": 1
+								},
+								"falseBranch": {
+									"qoeClass": 1
+								}
+							},
+							"falseBranch": {
+								"axis": "DTH",
+								"comparisonOperator": "lte",
+								"rightOperand": 375000,
+								"trueBranch": {
+									"qoeClass": 2
+								},
+								"falseBranch": {
+									"qoeClass": 1
+								}
+							}
+						},
+						"falseBranch": {
+							"axis": "RTT",
+							"comparisonOperator": "lte",
+							"rightOperand": 1500500000,
+							"trueBranch": {
+								"axis": "UTH",
+								"comparisonOperator": "lte",
+								"rightOperand": 1250000,
+								"trueBranch": {
+									"qoeClass": 1
+								},
+								"falseBranch": {
+									"qoeClass": 1
+								}
+							},
+							"falseBranch": {
+								"qoeClass": 1
+							}
+						}
+					}
+				}
+			},
+			"falseBranch": {
+				"axis": "RTT",
+				"comparisonOperator": "lte",
+				"rightOperand": 585500000,
+				"trueBranch": {
+					"axis": "DJ",
+					"comparisonOperator": "lte",
+					"rightOperand": 29000000,
+					"trueBranch": {
+						"axis": "UTH",
+						"comparisonOperator": "lte",
+						"rightOperand": 375000,
+						"trueBranch": {
+							"axis": "DTH",
+							"comparisonOperator": "lte",
+							"rightOperand": 750000,
+							"trueBranch": {
+								"axis": "RTT",
+								"comparisonOperator": "lte",
+								"rightOperand": 422000000,
+								"trueBranch": {
+									"qoeClass": 2
+								},
+								"falseBranch": {
+									"qoeClass": 1
+								}
+							},
+							"falseBranch": {
+								"axis": "RTT",
+								"comparisonOperator": "lte",
+								"rightOperand": 422000000,
+								"trueBranch": {
+									"qoeClass": 1
+								},
+								"falseBranch": {
+									"qoeClass": 2
+								}
+							}
+						},
+						"falseBranch": {
+							"axis": "UTH",
+							"comparisonOperator": "lte",
+							"rightOperand": 1500000,
+							"trueBranch": {
+								"axis": "UL",
+								"comparisonOperator": "lte",
+								"rightOperand": 0.04,
+								"trueBranch": {
+									"qoeClass": 1
+								},
+								"falseBranch": {
+									"qoeClass": 1
+								}
+							},
+							"falseBranch": {
+								"axis": "DTH",
+								"comparisonOperator": "lte",
+								"rightOperand": 12000000,
+								"trueBranch": {
+									"qoeClass": 1
+								},
+								"falseBranch": {
+									"qoeClass": 2
+								}
+							}
+						}
+					},
+					"falseBranch": {
+						"axis": "DJ",
+						"comparisonOperator": "lte",
+						"rightOperand": 77000000,
+						"trueBranch": {
+							"axis": "UJ",
+							"comparisonOperator": "lte",
+							"rightOperand": 77000000,
+							"trueBranch": {
+								"axis": "UTH",
+								"comparisonOperator": "lte",
+								"rightOperand": 6000000,
+								"trueBranch": {
+									"qoeClass": 1
+								},
+								"falseBranch": {
+									"qoeClass": 1
+								}
+							},
+							"falseBranch": {
+								"axis": "RTT",
+								"comparisonOperator": "lte",
+								"rightOperand": 560500000,
+								"trueBranch": {
+									"qoeClass": 1
+								},
+								"falseBranch": {
+									"qoeClass": 2
+								}
+							}
+						},
+						"falseBranch": {
+							"qoeClass": 1
+						}
+					}
+				},
+				"falseBranch": {
+					"axis": "RTT",
+					"comparisonOperator": "lte",
+					"rightOperand": 897500000,
+					"trueBranch": {
+						"axis": "DJ",
+						"comparisonOperator": "lte",
+						"rightOperand": 500000,
+						"trueBranch": {
+							"axis": "UTH",
+							"comparisonOperator": "lte",
+							"rightOperand": 750000,
+							"trueBranch": {
+								"axis": "RTT",
+								"comparisonOperator": "lte",
+								"rightOperand": 674000000,
+								"trueBranch": {
+									"qoeClass": 1
+								},
+								"falseBranch": {
+									"qoeClass": 1
+								}
+							},
+							"falseBranch": {
+								"axis": "UL",
+								"comparisonOperator": "lte",
+								"rightOperand": 0.005,
+								"trueBranch": {
+									"qoeClass": 1
+								},
+								"falseBranch": {
+									"qoeClass": 2
+								}
+							}
+						},
+						"falseBranch": {
+							"axis": "DJ",
+							"comparisonOperator": "lte",
+							"rightOperand": 77000000,
+							"trueBranch": {
+								"axis": "UL",
+								"comparisonOperator": "lte",
+								"rightOperand": 0.275,
+								"trueBranch": {
+									"qoeClass": 1
+								},
+								"falseBranch": {
+									"qoeClass": 1
+								}
+							},
+							"falseBranch": {
+								"qoeClass": 1
+							}
+						}
+					},
+					"falseBranch": {
+						"axis": "DJ",
+						"comparisonOperator": "lte",
+						"rightOperand": 500000,
+						"trueBranch": {
+							"axis": "UTH",
+							"comparisonOperator": "lte",
+							"rightOperand": 6000000,
+							"trueBranch": {
+								"qoeClass": 1
+							},
+							"falseBranch": {
+								"axis": "UJ",
+								"comparisonOperator": "lte",
+								"rightOperand": 64000000,
+								"trueBranch": {
+									"qoeClass": 1
+								},
+								"falseBranch": {
+									"qoeClass": 3
+								}
+							}
+						},
+						"falseBranch": {
+							"qoeClass": 1
+						}
+					}
+				}
+			}
+		}
+	}
+}
