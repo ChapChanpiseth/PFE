@@ -1,0 +1,6 @@
+{
+    "python.pythonPath": "/Volumes/D/Application/Anoconda/anaconda3/envs/pfenv/bin/python",
+    "python.dataScience.jupyterServerURI": "http://localhost:8889/notebooks/2019-2020/PFE-Project/chanpi.ipynb",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
+}
